@@ -1,0 +1,31 @@
+
+
+.contaner {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+
+.Green{
+    background: green;
+
+}
+
+.Orange {
+    background: orange;
+}
+
+.samething {
+    background: violet;
+}
+
+p {
+    border: 3px;
+    margin: 10px;
+    padding: 15px;
+}
+
+img {
+    max-width: 350px;
+}

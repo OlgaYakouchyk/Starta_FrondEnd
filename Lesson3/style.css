@@ -1,0 +1,22 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ ul {
+    list-style: none;
+ }
+
+ .text {
+    text-align: center;
+ }
+
+ .task {
+    border: 2px solid navy;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin: 15px;
+    border-radius: 11px;
+    background: lightgreen;
+ }

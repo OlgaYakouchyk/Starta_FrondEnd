@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ ul {
+    list-style: none;
+ }
+
+ .list .item:nth-child(5) {
+    color: red;
+ }
+
+ .main .box:nth-child(2) {
+    color: rgb(229, 8, 236);
+ }
+ .title {
+      text-align: center;
+
+ }
+
+ .conteiner {
+    margin: 20px;
+ }
+ 
+ .posts_item {
+    border: 1px solid yellowgreen;
+    padding: 15px 10px;
+    border-radius: 8px;
+    background: palevioletred;
+    color: lightblue;
+
+ }
+ 
+ .posts_item:nth-child(2) {
+    margin-top: 10px;
+ }
+
+ 
+
+ 
