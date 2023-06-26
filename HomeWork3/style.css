@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topic {
+    text-align: center;
+    font-size: 30px;
+}
+
+.image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.first_article   {
+    padding: 20px;
+}
+
+.second_article {
+    padding: 20px;
+}
+
+.third_article {
+    padding: 20px;
+}
+
+.list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+ .table {
+    margin-top: 15px;
+    border: 2px solid black;
+    width: 65%;
+    font-size: 25px;
+    
+ }
+
+.thead th {
+    border: 1px solid black;
+}
+
+ .img  img{
+    max-width: 50px;
+ 
+ }
+
+  .img {
+    border: 1px solid black;
+ }
+ .td_currency {
+    border: 1px solid black;
+ }
+ .td_cyrs {
+    border: 1px solid black;
+ } 
