@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.item {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid rgb(221, 13, 13);
+    width: 150px;
+}
+.main {
+    display: flex;
+    justify-content: flex-end;
+}
