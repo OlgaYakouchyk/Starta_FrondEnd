@@ -1,0 +1,104 @@
+ * {
+    padding: 0;
+    margin: 0;
+ }
+
+ ul, ol {
+    list-style: none;
+ }
+
+ .main {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(176, 153, 197);
+    margin: 10% auto;
+    position: relative;
+ }
+
+ .item_1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    top: -15px;
+    left: -15px;
+    z-index: -1;
+
+ }
+ 
+ .item_2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    top: -15px;
+    right: -15px;
+ }
+
+ .item_3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(116, 182, 18);
+    bottom: -15px;
+    left: -15px;
+ }
+ .item_4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(17, 17, 16);
+    bottom: -15px;
+    right: -15px;
+    z-index: -1;
+ }
+ .item_5 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    bottom: -20px;
+    right: -20px;
+    z-index: -2;
+ }
+
+
+ .item_6 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: magenta;
+    top: -25px;
+    right: 45%;
+ }
+
+ .item_7 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(116, 182, 18);
+    bottom: -25px;
+    left: 45%;
+ }
+ .item_8 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 16);
+    top: 45%;
+    left: -25px;
+    
+ }
+ .item_9 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    top: 45%;
+    right: -25px;
+    
+ }
