@@ -1,0 +1,49 @@
+* {
+padding: 0;
+margin: 0;
+}
+ul, ol {
+    list-style: none;
+ }
+ .main {
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    border: 1px solid black;
+    
+ }
+
+ .red {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    top: 30%;
+    left: 15%;
+    z-index: -1;
+ }
+
+ .green {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    top: 35%;
+    left: 22%;
+    z-index: 1;
+ }
+
+ .blue {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    top: 40%;
+    left: 30%;
+    z-index: -2;
+ }
+
+ .green:hover {
+    transform: rotate(-45deg) scale(300px);
+ }
+
