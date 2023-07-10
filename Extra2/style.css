@@ -10,112 +10,79 @@ ol {
 .main {
   margin-top: 5%;
   margin-left: 5%;
-  padding: 15px;
-  width: 293px;
+  padding: 20px;
+  max-width: 293px;
   height: 412px;
   border-radius: 20px;
   border: 1px solid #000;
-}
-.box_1 {
-  display: flex;
-  justify-content: space-between;
   position: relative;
 }
-.item_1 {
-  width: 22px;
-  height: 21px;
-  border-radius: 50%;
-  background: #ff0000;
-}
-.item_2 {
-  width: 22px;
-  height: 21px;
-  border-radius: 50%;
-  background: #ff0000;
-  position: absolute;
-  left: 40px;
-}
-.item_3 {
-  width: 22px;
-  height: 21px;
-  border-radius: 50%;
-  background: #ff0000;
-  position: absolute;
-  right: 0;
-}
-.item_4 {
-  width: 22px;
-  height: 21px;
-  border-radius: 50%;
-  background: #ff0000;
-  position: absolute;
-  right: 54%;
-  top: 50px;
-}
-.item_5 {
-  width: 22px;
-  height: 21px;
-  border-radius: 50%;
-  background: #ff0000;
-  position: absolute;
-  right: 40%;
-  top: 50px;
-}
-.item_6 {
+.box_top {
   display: flex;
-  width: 261px;
+  justify-content: space-between;
+}
+.item {
+  width: 22px;
+  height: 21px;
+  border-radius: 50%;
+  background: #ff0000;
+}
+
+.item_left {
+  display: flex;
+  width: 62px;
+  justify-content: space-between;
+}
+
+.box_midle {
+  display: flex;
+  width: 67px;
+  justify-content: space-between;
+  margin: 25px auto;
+}
+
+.text {
+  width: 275px;
   height: 139px;
+  display: flex;
   flex-direction: column;
   text-align: justify;
-  position: absolute;
-  top: 90px;
-  right: 7%;
 }
-.item_7 {
+
+.item_square {
   width: 117px;
   height: 36px;
-  background: #ff0000;
-  position: absolute;
-  top: 290px;
+  background: #f00;
 }
-.item_8 {
-  width: 117px;
-  height: 36px;
-  background: #ff0000;
-  position: absolute;
-  top: 290px;
-  right: 0;
+
+.box_square {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
 }
-.item_9 {
+
+.box_square_2 {
   width: 85px;
   height: 51px;
   background: #ff0000;
-  position: absolute;
-  top: 355px;
-  left: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 35px auto;
 }
-.item_10 {
-  width: 84px;
-  height: 81px;
-  border-radius: 84px;
-  background: #f00;
-  position: absolute;
-  top: 390px;
-  left: 265px;
-}
-.item_11 {
+.item_1 {
   color: #000;
   font-size: 10px;
   width: 20px;
   height: 15px;
 }
 
-.item_12 {
-  color: #000;
-  font-size: 10px;
-  width: 20px;
-  height: 15px;
+.box_circle {
+  width: 84px;
+  height: 81px;
+  background: #f00;
+  border-radius: 50%;
+  position: absolute;
+  right: -40px;
+  bottom: -35px;
 }
