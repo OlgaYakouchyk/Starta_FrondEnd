@@ -83,10 +83,10 @@
 
 //  }
 // }
-const dArr = [2, 5, 6,1, 0, 9, 5, 78, 86];
- let counter = 0
- for (i = 0; i < dArr.length; i++) {
-   if (dArr[i] > 0) {
-     console.log(counter += dArr[i]);
-   }
-}
+// const dArr = [2, 5, 6,1, 0, 9, 5, 78, 86];
+//  let counter = 0
+//  for (i = 0; i < dArr.length; i++) {
+//    if (dArr[i] > 0) {
+//      console.log(counter += dArr[i]);
+//    }
+// }
